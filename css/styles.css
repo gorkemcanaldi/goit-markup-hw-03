@@ -1,189 +1,112 @@
 :root {
-    --mavi:#0000ff;
     --ocean: #404BBF;
     --navyblue : #2E2F42;
     --slate :#434455;
     --iris : #4D5AE5;
+    --cloud :#F4F4FD;
 }
 
-
-body {
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--slate);
-        background-color: #FFFFFF;
-        
-}
-ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
-/* --------------------------HEADER logo STYLES ---------------------------- */
-
-.header-logo {
-        font-family: "Raleway" ,sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #4D5AE5;
+* {
+    box-sizing: border-box;
 }
 
-.header-logo-span {
-    color: var(--navyblue);
-}
+html, body {
 
-/* ---------------------HEADER LOGO DONE -------------------------- */
-
-
-
-/* ---------NAV-LINK-------------- */
-
-.nav-link {
-        font-weight: 500;
-        color: var(--navyblue);
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: left;
-
-
-}
-
-
-.nav-link:hover,.nav-link:focus {
-    color: var(--ocean);
-    }
-    
-
-
-/* ---------ADRESS LINK---- */
-
-.nav-link-address {
+    height: 72px;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate);
 }
 
-.address-link {
-    font-style: normal;
+ul {
+    list-style: none; 
 }
 
-.nav-link-address:hover,.nav-link-address:focus {
-    color: var(--ocean);
-}
-/* -------------------NAV ADRESS LINK----------------- */
-
-.hero-page {
-    background-color: var(--navyblue);
-    color: #FFFFFF;
+a {
+    text-decoration: none;
 }
 
-
-.header-word-first {
-    color: white;
-    font-weight: 700;   
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
-.hero-button {
-    cursor: pointer;
-    background-color: var(--iris);
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    color:#FFFFFF;
+.container {
+    width: 1158px;   
+    margin: 0 auto;
 }
 
-.hero-button:hover, .hero-button:active, .hero-button:focus {
-    background-color: var(--ocean);
-
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* -------------------NAV ADRESS LINK DONE----------------- */
+.row {
 
-/* -------------- FEATURESD SECTİON ----------------*/
+    width: 115px;
+    height: 24px;
+    top: 24px;
+    left: 156px;
+}
 
-
-.header-word-second {
-    font-size: 36px;
-    line-height: 1.11;
+.header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color:var(--iris);
+}
+
+.header-span-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--navyblue);
 }
 
-.header-word-third {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+.navigation .nav-list {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
 
-        color: var(--navyblue);
+}
+   
+.nav-item  {
+    display: block;
+    font-weight: 500;
+    color: var(--navyblue);
+    line-height: 1.5;
+    letter-spacing: 0.02;
 }
 
-/* -------------- FEATURESD SECTİON DONE----------------*/
-
-/* -------------- TEAM-PAGE SECTİON ----------------*/
-
-
-.team-section {
-    background-color: #F4F4FD;
+.nav-item:hover, .nav-item:active {
+    color: var(--ocean);
 }
 
-.team-card {
-    background-color: #FFFFFF;
+.address-sec .address-list {
+    display: flex;
+    
+
+   
 }
 
-.team-p {
+.address-link {
+     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
-/* -------------- TEAM-PAGE SECTİON  DONE----------------*/
-
-/* ----------------PORTFOLİO SECTİON */
-
-
-
-
-/* ------------------PORTFOLİO SECTİON */
-/* -------------- MAİN SECTİON DONE ----------------*/
-
-/* -------------- FOOTER SECTİON ----------------*/
-
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-        text-transform: uppercase;
-        color:#4D5AE5;
+.address-link:hover {
+    color: var(--ocean);
 }
-
-.footer-section {
-    background-color: var(--navyblue);
-
-}
-
-.footer-logo-span {
-    color:#F4F4FD;
-}
-
-
-
-
-.footer-text {
-    color: #F4F4FD;
-}
-/* -------------------FOOTER SECTİON DONE */

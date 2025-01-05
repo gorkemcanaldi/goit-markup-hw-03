@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 1158px; 
     height: 72px;  
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 0 15px;
 
 
 }
@@ -85,7 +85,7 @@ header {
     
 }
 
-.navigation-one .nav-list {
+.nav-first .nav-list {
     display: flex;
    
     gap: 20px;

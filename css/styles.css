@@ -86,7 +86,7 @@ header {
     
 }
 
-.nav-first {
+.nav-first .nav-list {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -182,7 +182,16 @@ header {
 
 .but_one {
     display: block; 
-    margin: 0 auto; 
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: var(--iris);
+    width: 169px;
+    height: 56px;
+    top: 428px;
+    left: 636px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    gap: 10px;
 
 }
 

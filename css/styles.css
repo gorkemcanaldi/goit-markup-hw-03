@@ -86,7 +86,7 @@ header {
     
 }
 
-.nav-first .nav-list {
+.nav-first {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -94,7 +94,11 @@ header {
     padding: 0;
 
 }
-   
+
+.nav-list {
+    gap: 40px;
+}
+
 .row-two {
     width: 261px;
     height: 24px;

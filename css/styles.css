@@ -153,6 +153,8 @@ a {
 /*                        features                              */
 .features-sec {
    padding: 120px 0;
+   max-width: 1128px;
+   margin: 0 auto;
    
 }
 
@@ -202,4 +204,5 @@ a {
     font-weight: 500;
     line-height: 1.2;   
     letter-spacing: 0.02em;
+    color: var(--navyblue);
 }

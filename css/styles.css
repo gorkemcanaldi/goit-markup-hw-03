@@ -319,6 +319,9 @@ a {
     border: 1px solid #E7E9FC;
     border-top: none;
     margin-bottom: 8px;
+    min-width: 326px;
+    min-height: 55px;
+
 }
 
 .port-third {

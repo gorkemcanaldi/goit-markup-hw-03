@@ -29,11 +29,14 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .list-menu {
@@ -48,9 +51,11 @@ img {
 }
 
 .header-container {
-  width: 1158px;
+  width: 100%;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
 }
 
 .header {
@@ -180,9 +185,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.features-head {
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
@@ -190,6 +192,10 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
+}
+
+.features-head {
+
 }
 
 .features-title {
@@ -225,7 +231,7 @@ img {
 
 .our-list {
   display: flex;
-
+  flex-wrap: wrap;
   gap: 24px;
 }
 .menu-li {

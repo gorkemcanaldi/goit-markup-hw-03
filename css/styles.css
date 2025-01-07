@@ -62,7 +62,7 @@ a {
 
 
 .logo {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -205,4 +205,161 @@ a {
     line-height: 1.2;   
     letter-spacing: 0.02em;
     color: var(--navyblue);
+}
+
+/* -----------our section */
+
+
+.our-sec {
+    
+    background-color: var(--cloud);
+    text-align: center;
+    padding: 120px 0;
+    
+}
+
+
+.our-cont {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ .our-head {
+    
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02;
+    color: var(--navyblue);
+   
+    
+}
+
+
+
+.our-list {
+    display: flex;
+    
+    gap: 24px;
+   
+}
+.menu-li {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    list-style: none;
+    padding: 0 auto;
+    
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+
+.our-info {
+    padding: 32px 0;
+    display: block;
+    
+}
+.our-third {
+    align-items: center;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.our-text {
+    text-align: center;
+}
+/* our section end */
+
+
+.port-sec {
+    padding: 120px 0;
+}
+
+.port-cont {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.port-head {
+    margin-bottom: 72px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+.port-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 48px;
+    list-style: none;
+    max-width: 1128px;
+
+}
+
+.port-li {
+    width: calc((100% - 72px) / 3);
+}
+
+.port-info {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.port-third {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+/* main end */
+
+/* footer */
+
+.footer-sec {
+    padding: 100px 0;
+    background-color: var(--navyblue);
+    
+}
+
+.footer-info {
+    display: block;
+    width: 264px;
+    
+}
+
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+    text-transform: uppercase;
+    
+    
+}
+.logo-span-second{
+    color: var(--cloud);
+}
+.footer-text {
+    color: var(--cloud);
+    margin-top: 16px;
 }

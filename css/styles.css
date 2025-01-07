@@ -311,7 +311,7 @@ a {
 }
 
 .port-li {
-    width: calc((100% - 72px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .port-info {
@@ -321,6 +321,7 @@ a {
     margin-bottom: 8px;
     min-width: 326px;
     min-height: 55px;
+    margin-top: -6px;
 
 }
 
@@ -338,12 +339,15 @@ a {
 .footer-sec {
     padding: 100px 0;
     background-color: var(--navyblue);
-    
+    min-height: 112px;
+   
 }
 
 .footer-info {
     display: block;
     width: 264px;
+    margin-left:21%;
+    
     
 }
 

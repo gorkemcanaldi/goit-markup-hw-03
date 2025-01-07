@@ -67,12 +67,20 @@ a {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--iris);
     text-transform: uppercase;
     margin-right: 76px;
+    color: var(--navyblue);
 }
 .span-logo {
-    color: var(--navyblue);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+    text-transform: uppercase;
+
+    
 }
 
 
@@ -366,8 +374,15 @@ a {
     
 }
 .logo-span-second{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--cloud);
     display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-text {
     color: var(--cloud);

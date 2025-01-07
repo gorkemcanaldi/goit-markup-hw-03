@@ -353,13 +353,16 @@ a {
     letter-spacing: 0.03em;
     color: var(--iris);
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
     
     
 }
 .logo-span-second{
     color: var(--cloud);
+    display: inline-block;
 }
 .footer-text {
     color: var(--cloud);
-    margin-top: 16px;
+    
 }

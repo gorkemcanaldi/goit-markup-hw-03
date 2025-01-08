@@ -164,6 +164,11 @@ img {
   margin: 0 auto;
 }
 
+.features-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -203,7 +208,7 @@ img {
 
 .team-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .team-heading {
